@@ -19,10 +19,13 @@ background-size: contain;
 }
 .container{
   height: 100vh;
+  display: grid;
+  grid-template-columns: 50% , 50%;
 }
 .conteiner_botao{
 background-color: var(--botao-azul);
 border-radius: 10px;
 padding: 1em;
-
+color: var(--branco-principal);
+display: block;
 }
