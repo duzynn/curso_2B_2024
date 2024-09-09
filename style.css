@@ -8,45 +8,40 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
-    #cor de fundo color: var(--branco-principal);
-    #cor da fonte font-family: var(--fonte-principal);
-    #estilo da fonte font-size: 16px;
-    #tamanho da fonte font-weight: 400;
-    #largura da fonte
+    background-color: var(--cor-de-fundo); #cor de fundo
+    color: var(--branco-principal); #cor da fonte
+    font-family: var(--fonte-principal); #estilo da fonte 
+    font-size: 16px; #tamanho da fonte
+    font-weight: 400; #largura da fonte
 }
 
 * {
-    margin: 0;
-    #margem padding: 0;
-    #espaço interno
+    margin: 0; #margem
+    padding: 0; #espaço interno
 }
 
 .principal {
-    background-image: url("Background.png");
-    #imagem como plano de fundo background-repeat: no-repeat;
-    #não repetir a imagem background-size: contain;
-    #ele coloca não repetir imagem align-items: center;
-    #items se alinham ao centro text-align: center;
-    #os textos se alinham ao centro
+    background-image: url("Background.png"); #imagem como plano de fundo
+    background-repeat: no-repeat; #não repetir a imagem
+    background-size: contain; #ele coloca não repetir imagem
+    align-items: center; #items se alinham ao centro
+    text-align: center; #os textos se alinham ao centro
 }
 
 .container {
-    height: 100vh;
-    #altura display: grid;
-    #configuração para organizar os elementos grid-template-columns: 50% 50%;
-    #espaço da tag
+    height: 100vh; #altura
+    display: grid; #configuração para organizar os elementos
+    grid-template-columns: 50% 50%; #espaço da tag
 }
 
 .container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    #deixar as bordas arrendondadas padding: 1em;
-    #espaçamento color: var(--branco-principal);
-    #cor da fonte display: block;
-    # text-decoration: none;
-    # margin-bottom: 1em;
-    #
+    background-color: var(--botao-azul); 
+    border-radius: 5px; #deixar as bordas arrendondadas
+    padding: 1em; #espaçamento
+    color: var(--branco-principal); #cor da fonte
+    display: block; #
+    text-decoration: none; #
+    margin-bottom: 1em; #
 }
 
 .botao_secundario {
@@ -134,7 +129,7 @@ body {
     margin-top: 1em;
 }
 
-.lista__link a {
+.lista__link a{
     text-decoration: none;
     color: var(--branco-principal);
     margin-left: 1em;
