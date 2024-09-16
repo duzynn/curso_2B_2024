@@ -8,148 +8,148 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo); #cor de fundo
-    color: var(--branco-principal); #cor da fonte
-    font-family: var(--fonte-principal); #estilo da fonte 
-    font-size: 16px; #tamanho da fonte
-    font-weight: 400; #largura da fonte
+    background-color: var(--cor-de-fundo); /*cor de fundo*/
+    color: var(--branco-principal); /*cor da fonte*/
+    font-family: var(--fonte-principal); /*estilo da fonte*/ 
+    font-size: 16px; /*tamanho da fonte*/
+    font-weight: 400; /*largura da fonte*/
 }
 
 * {
-    margin: 0; #margem
-    padding: 0; #espaço interno
+    margin: 0; /*margem*/
+    padding: 0; /*espaço interno*/
 }
 
 .principal {
-    background-image: url("Background.png"); #imagem como plano de fundo
-    background-repeat: no-repeat; #não repetir a imagem
-    background-size: contain; #ele coloca não repetir imagem
-    align-items: center; #items se alinham ao centro
-    text-align: center; #os textos se alinham ao centro
+    background-image: url("Background.png"); /*imagem como plano de fundo*/
+    background-repeat: no-repeat; /*não repetir a imagem*/
+    background-size: contain; /*ele coloca não repetir imagem*/
+    align-items: center; /*items se alinham ao centro*/
+    text-align: center; /*os textos se alinham ao centro*/
 }
 
 .container {
-    height: 100vh; #altura
-    display: grid; #configuração para organizar os elementos
-    grid-template-columns: 50% 50%; #espaço da tag
+    height: 100vh; /*altura*/
+    display: grid; /*configuração para organizar os elementos*/
+    grid-template-columns: 50% 50%; /*espaço da tag*/
 }
 
 .container__botao {
     background-color: var(--botao-azul); 
-    border-radius: 5px; #deixar as bordas arrendondadas
-    padding: 1em; #espaçamento
-    color: var(--branco-principal); #cor da fonte
-    display: block; #
-    text-decoration: none; #
-    margin-bottom: 1em; #
+    border-radius: 5px; /*deixar as bordas arrendondadas*/
+    padding: 1em; /*espaçamento*/
+    color: var(--branco-principal); /*cor da fonte*/
+    display: block; /*display bloqueado*/
+    text-decoration: none; /*decoração de texto*/
+    margin-bottom: 1em; /*margem do bottom*/
 }
 
 .botao_secundario {
-    background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    background-color: transparent;/*cor de fundo*/
+    border: 2px solid var(--branco-principal)/*cor da borda*/
 }
 
 .container__aviso {
-    font-size: 12px;
-    color: var(--cinza-secundario);
+    font-size: 12px;/*tamanho da fonte*/
+    color: var(--cinza-secundario);/*cor da fonte*/
 }
 
 .container__titulo {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 28px;/*tamanho da fonte*/
+    font-weight: 700;/*largura da fonte*/
 }
 
 .container__imagem {
-    margin: 1em 0 2em 0;
+    margin: 1em 0 2em 0;/*margem*/
 }
 
 .container__caixa {
-    margin: 0 6em;
+    margin: 0 6em;/*margem*/
 }
 
 .secundario__imagem {
-    width: 80%;
+    width: 80%;/*largura*/
 }
 
 .secundario {
-    align-items: center;
-    margin: 0 10em;
+    align-items: center;/*alhinhamento do item*/
+    margin: 0 10em;/*margem*/
 }
 
 .descricao__titulo {
-    font-weight: 700;
-    font-size: 48px;
-    color: var(--branco-principal);
-    margin-bottom: 0.1em;
+    font-weight: 700;/*largura da fonte*/
+    font-size: 48px;/*tamanho da fonte*/
+    color: var(--branco-principal);/*cor da fonte*/
+    margin-bottom: 0.1em;/*margem*/
 }
 
 .descricao__texto {
-    color: var(--cinza-secundario);
+    color: var(--cinza-secundario);/*cor da fonte*/
 }
 
 .secundario__botao {
-    display: inline-block;
-    margin-top: 1em;
+    display: inline-block;/*agrupa corretamente os elementos*/
+    margin-top: 1em;/*margem*/
 }
 
 .container__descricao {
-    padding: 2em;
+    padding: 2em;/*preenchimento*/
 }
 
 .dispositivos__lista {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 5em 0;
+    display: flex;/*distribuição dos elementos*/
+    justify-content: center;/*define como o navegador distribui o espaço entre e ao redor dos itens*/
+    list-style-type: none;/*tipo de decoração*/
+    margin: 5em 0;/*margem*/
 }
 
 .dispositivos {
-    text-align: center;
+    text-align: center;/*os textos se alinham ao centro*/
 }
 
 .dispositivos__titulo {
-    font-size: 48px;
-    color: var(--branco-principal);
+    font-size: 48px;/*tamanho da fonte*/
+    color: var(--branco-principal);/*cor da fonte*/
 }
 
 .lista__item {
-    font-size: 32px;
-    color: var(--branco-principal);
+    font-size: 32px;/*tamanho da fonte*/
+    color: var(--branco-principal);/*cor da fonte*/
 }
 
 .rodape {
-    text-align: center;
-    margin: 5em 3em;
+    text-align: center;/*alinhamento do texto no centro*/
+    margin: 5em 3em;/*tamanha da margem*/
 }
 
 .rodape__lista {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin-top: 1em;
+    display: flex;/*distribuição dos elementos*/
+    justify-content: center;/*define como o navegador distribui o espaço entre e ao redor dos itens*/
+    list-style-type: none;/*tipo de decoração*/
+    margin-top: 1em;/*margem*/
 }
 
 .lista__link a{
-    text-decoration: none;
-    color: var(--branco-principal);
-    margin-left: 1em;
+    text-decoration: none;/*decoração de texto*/
+    color: var(--branco-principal);/*cor do texto*/
+    margin-left: 1em;/*tamanho da margem*/
 }
 
 .rodape__texto {
-    margin: 1em 0;
-    color: var(--cinza-secundario);
-    font-size: 14px;
+    margin: 1em 0;/*margem*/
+    color: var(--cinza-secundario);/*cor da margem*/
+    font-size: 14px;/*tamanho da fonte*/
 }
 
 .lista__link a:hover {
-    color: var(--botao-azul);
+    color: var(--botao-azul);/*cor do link*/
 }
 
 .lista__link a:active {
-    color: purple;
+    color: purple;/*cor do link*/
 }
 
 .container__botao:hover {
-    background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundo);
+    background-color: var(--botao-azul-efeito);/*cor de fundo*/
+    color: var(--cor-de-fundo);/*cor da margem*/
 }
